@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+  body{
+     background:linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+}
+   .image-logo{
+      width: 100px;
+      border-radius: 50%;
+    }
+    .card-container{
+      margin-left: 300px;
+      width: 1200px;
+      height: 300px;
+    }
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-danger  p-3 fw-bold ">
+  <div class="container-fluid">
+    <img src="logo.jpg" class="image-logo me-3" alt="imgae">
+    <a class="navbar-brand" href="#" >TECCORE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Events</a></li>
+            <li><a class="dropdown-item" href="#">Items</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">More items</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search 🔎" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search  </button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="card-container d-flex gap-5 mt-5">
+  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header text-center">Quick delivery</div>
+    <div class="card-body">
+      <h5 class="card-title">Lightning-Fast Tech</h5>
+      <p class="card-text20">Skip the long waiting lines. Order pre-configured or custom-built desktop PCs and laptops with same-day dispatch and priority local shipping.</p>
+    </div>
+  </div>
+  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header text-center">Reinstall</div>
+    <div class="card-body">
+      <h5 class="card-title">Pre-installation&backup</h5>
+      <p class="card-text"> Save all personal files, documents, photos, and browser bookmarks to an external drive or cloud storage before starting.</p>
+    </div>
+  </div>
+  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header text-center">Hardware repairs</div>
+    <div class="card-body">
+      <h5 class="card-title">Power supply and motherboard</h5>
+      <p class="card-text"> Diagnoses and replaces failing Switched-Mode Power Supplies (SMPS), fixes power-on failures, and repairs or replaces damaged central motherboards and blown capacitors</p>
+    </div>
+  </div>
+</div>
+<div class="card-container d-flex gap-5 mt-5">
+  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header text-center">Upgrades</div>
+    <div class="card-body">
+      <h5 class="card-title">Solid-State Drive(SSD)</h5>
+      <p class="card-text"> Replacing a traditional hard drive (HDD) with an SSD is the single most impactful upgrade you can make. It dramatically speeds up boot times, file transfers, and overall system responsiveness.</p>
+    </div>
+  </div>
+  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header text-center">Security</div>
+    <div class="card-body">
+      <h5 class="card-title">Network Security</h5>
+      <p class="card-text"> Protects data in transit across internal networks, Wi-Fi connections, and external links using firewalls and encrypted tunnels</p>
+    </div>
+  </div>
+  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header text-center">Networking</div>
+    <div class="card-body">
+      <h5 class="card-title">Personal Area Network(PAN)</h5>
+      <p class="card-text">Covers a very small range (around 10 meters), connecting personal devices like a smartphone and wireless headphones via Bluetooth.</p>
+    </div>
+  </div>
+</div>
+<footer class="footer-header mt-5 bg-warning text-white">
+  <div class="container-fluid d-flex justify-content-between">
+    <div class="footer-box">
+      <h2 class="quick-title text-dark ms-5 mb-3">Quick Links</h2>
+      <ul>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">About</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Services</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Products</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Contact</a></li>
+         <li class="footer-items"><a class="nav-link text-white" href="#">Return policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="service-title text-dark ms-5">Services</h2>
+      <ul>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Quick delivery</a></li>
+        <li class="footer-items"><a class="nav-link text-white"href="#">Reinstallation</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Hardware repairs</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Upgrades</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Security</a></li>
+         <li class="footer-items"><a class="nav-link text-white" href="#">Networking</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="product-title text-dark ms-5">Our Products</h2>
+      <ul>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Desktops</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Laptops</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Printers</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Keyboards</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Mouse</a></li>
+         <li class="footer-items"><a class="nav-link text-white" href="#">CPU parts</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="contact-title text-dark ms-3">Contact us</h2>
+        <p>Email:CHP@gmail.com</p>
+        <p>Phone:+91 9475152152</p>
+        <p>Location:Bengaluru,Karnataka</p>
+    </div>
+    <div class="social-links ">            
+      <h3 class="social-title text-dark me-5">Social Links</h3>
+      <div class="social-text ms-5">
+        <p>Instagram</p>
+      </div>
+    
+      <div class="social-text ms-5">
+        <p>Facebook</p>
+      </div>
+    
+      <div class="social-text ms-5">
+        <p>Twitter</p>
+      </div>
+    </div>         
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
